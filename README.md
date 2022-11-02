@@ -7,10 +7,8 @@
            LC_COLLATE='Portuguese_Brazil.1252'
            LC_CTYPE='Portuguese_Brazil.1252'
            CONNECTION LIMIT=-1;
-           
-    CREATE SCHEMA tarefas;
     
-    CREATE TABLE tarefas.tarefas
+    CREATE TABLE public.tarefas
     (
        id bigserial, 
        descricao character varying(500) NOT NULL, 
@@ -21,3 +19,7 @@
     WITH (
       OIDS = FALSE
     ); 
+    
+###Swagger
+
+http://localhost:8080/swagger-ui/index.html
