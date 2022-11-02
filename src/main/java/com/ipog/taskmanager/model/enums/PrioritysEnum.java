@@ -3,7 +3,7 @@ package com.ipog.taskmanager.model.enums;
 public enum PrioritysEnum {
 
     HIGH("Alta"),
-    MEDIA("Média"),
+    MEDIA("MÃ©dia"),
     LOW("Baixa");
 
     String value;
